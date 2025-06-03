@@ -178,3 +178,83 @@ header img {
 
     background-size: 30%;
 }
+
+/* ----------SERVIÇOS--------- */
+#servicos{
+    margin-bottom: 120px;
+}
+
+#servicos .titulo{
+    justify-content: center;
+    margin-bottom: 55px;
+}
+
+#servicos h2{
+    margin-left: 5px;
+}
+
+.container-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+
+
+}
+
+.linha-roxa{
+    height: 250px;
+    width: 100vw;
+    background: linear-gradient(0deg, rgba(36, 0, 105, 1)0%, rgba(71, 0, 207, 1) 100%);
+    position: absolute;
+    z-index: -1;
+    top: calc(50% - 125px);
+}
+
+#servicos .card{
+    width: 300px;
+    margin: 20px;
+    padding: 40px 20px;
+    border-radius: 40px;
+    background-color: #f2f2f2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#servicos .card h3{
+    font-size: 24px;
+    margin: 5px 0 30px;
+    color: var(--roxo-PixelV);
+    font-family: "recursive", sans-linear-bold;
+    text-align: center;
+}
+
+#servicos .card p{
+    font-family: "recursive", sans-lenear;
+    font-family: 18px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+#servicos .card svg{
+    color:  var(--roxo-PixelV);
+    height: 75px;
+}
+
+#servicos .card:hover{
+    border: solid 3px var(--verde-PixelV);
+}
+
+#servicos .card:hover svg{
+    fill: var(--verde-PixelV);
+}
+
+#servicos .card:hover h3{
+    color: var(--verde-PixelV);
+}
